@@ -15,6 +15,27 @@ The focus is on small size without an onboard display or buttons, meaning it mus
 * [SnapMagic E22-900M30S footprint & symbol](https://www.snapeda.com/parts/E22-900M30S/EBYTE/view-part/)
 * [Seeed Studio XIAO nRF52840 Eagle footprint](https://files.seeedstudio.com/wiki/XIAO-BLE/Seeed-Studio-XIAO-nRF52840-footprint-eagle.lbr) (modified with battery pads copied from XIAO ESP32C3 footprint)
 
+## Building One
+
+### Ordering PCBs
+
+* Use the `ikoka-nano.cam` in EAGLE's CAM processor to generate Gerbers in a ZIP file
+* Upload this ZIP file to [JLCPCB](https://jlcpcb.com/) to order the PCBs; the default JLCPCB settings work fine
+
+### Ordering Components
+
+* LCSC
+  * 1* [EBYTE E22-900M30S](https://www.lcsc.com/product-detail/LoRa-Modules_Chengdu-Ebyte-Elec-Tech-E22-900M30S_C411294.html)
+  * 1* [JST SM04B-SRSS-TB(LF)(SN)](https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-SM04B-SRSS-TB-LF-SN_C160404.html)
+  * 2* [JST S2B-PH-SM4-TB(LF)(SN)](https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-S2B-PH-SM4-TB-LF-SN_C295747.html)
+  * 1x [Murata GRM31CR60J107ME39L](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM31CR60J107ME39L_C77085.html)
+* Seeed Studio
+  * 1* [Seeed Studio XIAO nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
+
+### Assembling the PCB
+
+(TODO)
+
 ## PCB Images
 
 ![PCB Top](ikoka-nano-pcb-top.png?raw=true)
