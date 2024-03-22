@@ -1,4 +1,4 @@
-# Ikoka Meshtastic Device
+# Ikoka Nano Meshtastic Device
 
 A Meshtastic device based on the [Seeed Studio XIAO nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) and EBYTE E22-XXXMXXS series LoRa modules. Pinout matches the [Meshtastic xiao_ble variant](https://github.com/meshtastic/firmware/tree/master/variants/xiao_ble).
 
@@ -35,6 +35,10 @@ The focus is on small size without an onboard display or buttons, meaning it mus
 ### Assembling the PCB
 
 (TODO)
+
+### Flashing
+
+Follow the instructions at [meshtastic/firmware/variants/xiao_ble/](https://github.com/meshtastic/firmware/tree/master/variants/xiao_ble).
 
 ## PCB Images
 
