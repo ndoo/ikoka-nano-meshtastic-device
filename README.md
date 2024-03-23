@@ -13,14 +13,23 @@ The focus is on small size without an onboard display or buttons, meaning it mus
 ## Libraries Used
 
 * [SnapMagic E22-900M30S footprint & symbol](https://www.snapeda.com/parts/E22-900M30S/EBYTE/view-part/)
-* [Seeed Studio XIAO nRF52840 Eagle footprint](https://files.seeedstudio.com/wiki/XIAO-BLE/Seeed-Studio-XIAO-nRF52840-footprint-eagle.lbr) (modified with battery pads copied from XIAO ESP32C3 footprint)
+* [SparkFun KiCad Libraries](https://github.com/sparkfun/SparkFun-KiCad-Libraries) (@v1.1)
+* [SeeedStudio OPL KiCad Library](https://github.com/ndoo/OPL_Kicad_Library/tree/xiao-ble-symbols) (forked to add missing XIAO nRF5240 symbol)
 
 ## Building One
 
+### Software Required
+
+* The files were created in [KiCad](https://www.kicad.org/) 7
+* Clone this git repository recursively, i.e. with `--recursive`
+* Ensure the SparkFun library is at v1.1:
+  * `cd symbols/SparkFun-KiCad-Libraries`
+  * `git checkout v1.1`
+
 ### Ordering PCBs
 
-* Use the `ikoka-nano.cam` in EAGLE's CAM processor to generate Gerbers in a ZIP file
-* Upload this ZIP file to [JLCPCB](https://jlcpcb.com/) to order the PCBs; the default JLCPCB settings work fine
+* Follow the instructions to generate Gerbers at your PCB house, e.g. [JLCPCB PCB Files Preparation](https://jlcpcb.com/help/catalog/180-PCB-Files-Preparation)
+* Default 1.6mm 2-layer PCB settings should work well
 
 ### Ordering Components
 
@@ -28,7 +37,7 @@ The focus is on small size without an onboard display or buttons, meaning it mus
   * 1* [EBYTE E22-900M30S](https://www.lcsc.com/product-detail/LoRa-Modules_Chengdu-Ebyte-Elec-Tech-E22-900M30S_C411294.html)
   * 1* [JST SM04B-SRSS-TB(LF)(SN)](https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-SM04B-SRSS-TB-LF-SN_C160404.html)
   * 2* [JST S2B-PH-SM4-TB(LF)(SN)](https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-S2B-PH-SM4-TB-LF-SN_C295747.html)
-  * 1x [Murata GRM31CR60J107ME39L](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM31CR60J107ME39L_C77085.html)
+  * 1* [Murata GRM31CR60J107ME39L](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM31CR60J107ME39L_C77085.html)
 * Seeed Studio
   * 1* [Seeed Studio XIAO nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
 
@@ -42,5 +51,5 @@ Follow the instructions at [meshtastic/firmware/variants/xiao_ble/](https://gith
 
 ## PCB Images
 
-![PCB Top](ikoka-nano-pcb-top.png?raw=true)
-![PCB Bottom](ikoka-nano-pcb-bottom.png?raw=true)
+![PCB Top](ikoka-nano-meshtastic-device-top.png?raw=true)
+![PCB Bottom](ikoka-nano-meshtastic-device-bottom.png?raw=true)

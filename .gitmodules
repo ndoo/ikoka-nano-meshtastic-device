@@ -1,0 +1,7 @@
+[submodule "symbols/OPL_Kicad_Library"]
+	path = symbols/OPL_Kicad_Library
+	url = https://github.com/ndoo/OPL_Kicad_Library.git
+	branch = xiao-ble-symbols
+[submodule "symbols/SparkFun-KiCad-Libraries"]
+	path = symbols/SparkFun-KiCad-Libraries
+	url = https://github.com/sparkfun/SparkFun-KiCad-Libraries.git
