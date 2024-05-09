@@ -13,18 +13,15 @@ The focus is on small size without an onboard display or buttons, meaning it mus
 ## Libraries Used
 
 * [SnapMagic E22-900M30S footprint & symbol](https://www.snapeda.com/parts/E22-900M30S/EBYTE/view-part/)
-* [SparkFun KiCad Libraries](https://github.com/sparkfun/SparkFun-KiCad-Libraries) (@v1.1)
+* [SparkFun KiCad Libraries](https://github.com/sparkfun/SparkFun-KiCad-Libraries)
 * [SeeedStudio OPL KiCad Library](https://github.com/ndoo/OPL_Kicad_Library/tree/xiao-ble-symbols) (forked to add missing XIAO nRF5240 symbol)
 
 ## Building One
 
 ### Software Required
 
-* The files were created in [KiCad](https://www.kicad.org/) 7
+* The files were created in [KiCad](https://www.kicad.org/) 8
 * Clone this git repository recursively, i.e. with `--recursive`
-* Ensure the SparkFun library is at v1.1:
-  * `cd symbols/SparkFun-KiCad-Libraries`
-  * `git checkout v1.1`
 
 ### Ordering PCBs
 
@@ -51,5 +48,7 @@ Follow the instructions at [meshtastic/firmware/variants/xiao_ble/](https://gith
 
 ## PCB Images
 
-![PCB Top](ikoka-nano-meshtastic-device-top.png?raw=true)
-![PCB Bottom](ikoka-nano-meshtastic-device-bottom.png?raw=true)
+![rotating](https://ndoo.github.io/ikoka-nano-meshtastic-device/rotating.gif)
+
+![top](https://ndoo.github.io/ikoka-nano-meshtastic-device/top.png)
+![bottom](https://ndoo.github.io/ikoka-nano-meshtastic-device/bottom.png)
