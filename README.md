@@ -26,21 +26,24 @@ The focus is on small size without an onboard display or buttons, meaning it mus
 ### Ordering PCBs
 
 * Follow the instructions to generate Gerbers at your PCB house, e.g. [JLCPCB PCB Files Preparation](https://jlcpcb.com/help/catalog/180-PCB-Files-Preparation)
-* Default 1.6mm 2-layer PCB settings should work well
+* Default 1.6mm 2-layer PCB settings should work well, this PCB passes DRC based on JLCPCB specifications (other than the silkscreen of XIAO module being clipped by the PCB edge)
+  * PCBA: I used [[https://github.com/bennymeg/Fabrication-Toolkit|JLC PCB Plug-in for KiCad]] to generate a BOM and CPL file compatible with JLCPCB PCBA
 
 ### Ordering Components
 
 * LCSC
   * 1* [EBYTE E22-900M30S](https://www.lcsc.com/product-detail/LoRa-Modules_Chengdu-Ebyte-Elec-Tech-E22-900M30S_C411294.html)
   * 1* [JST SM04B-SRSS-TB(LF)(SN)](https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-SM04B-SRSS-TB-LF-SN_C160404.html)
-  * 2* [JST S2B-PH-SM4-TB(LF)(SN)](https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-S2B-PH-SM4-TB-LF-SN_C295747.html)
   * 1* [Murata GRM31CR60J107ME39L](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM31CR60J107ME39L_C77085.html)
 * Seeed Studio
   * 1* [Seeed Studio XIAO nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
 
 ### Assembling the PCB
 
-(TODO)
+1. Solder U2 E22 module
+2. Solder U1 XIAO nRF52840
+3. Solder C1
+4. Solder Qwiic socket
 
 ### Flashing
 
