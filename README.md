@@ -6,9 +6,12 @@ The focus is on small size without an onboard display or buttons, meaning it mus
 
 ## Connectors
 
-* JST PH (2mm pitch) connector for 1S LiPo
-* JST PH (2mm pitch) connector for solar panel ([TI BQ25100](https://www.ti.com/product/BQ25100) charge IC on XIAO nRF52840, max 6.45V), connected to USB 5V
+* USB-C for power and data
 * Qwiic connector for I²C sensors
+
+## Future Plans
+
+* Add a boost converter and restore battery-powered operation
 
 ## Libraries Used
 
@@ -41,8 +44,8 @@ The focus is on small size without an onboard display or buttons, meaning it mus
 ### Assembling the PCB
 
 1. Solder U2 E22 module
-2. Solder U1 XIAO nRF52840
-3. Solder C1
+2. Solder C1
+3. Solder U1 XIAO nRF52840
 4. Solder Qwiic socket
 
 ### Flashing
