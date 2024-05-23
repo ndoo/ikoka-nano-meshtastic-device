@@ -52,6 +52,12 @@ The focus is on small size without an onboard display or buttons, meaning it mus
 
 Follow the instructions at [meshtastic/firmware/variants/xiao_ble/](https://github.com/meshtastic/firmware/tree/master/variants/xiao_ble).
 
+### Enclosure
+
+A snap-fit 3D printable enclosure is available in the `enclosures` folder.
+
+![ikoka nano in enclosure](assets/ikoka-nano-meshtastic-device.png)
+
 ## PCB Images
 
 ![rotating](https://ndoo.github.io/ikoka-nano-meshtastic-device/rotating.gif)
