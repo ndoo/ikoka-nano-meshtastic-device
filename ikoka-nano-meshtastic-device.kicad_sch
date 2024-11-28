@@ -579,127 +579,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "E22-900M30S:E22-900M30S"
 			(pin_names
 				(offset 1.016)
@@ -1350,102 +1229,6 @@
 				)
 			)
 			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GND_2"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_2_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_2_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -3045,16 +2828,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 139.7) (xy 104.14 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f3c89fe-4072-454e-a452-98c6d3841398")
-	)
-	(wire
-		(pts
 			(xy 227.33 43.18) (xy 237.49 43.18)
 		)
 		(stroke
@@ -3072,16 +2845,6 @@
 			(type default)
 		)
 		(uuid "85aef53e-55e5-4169-912d-02dfc5d3080b")
-	)
-	(wire
-		(pts
-			(xy 104.14 149.86) (xy 104.14 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "890d3c80-3a40-4f26-993c-3a09fcaa2e3a")
 	)
 	(wire
 		(pts
@@ -3402,6 +3165,16 @@
 			(type default)
 		)
 		(uuid "fc1251a9-2ea5-487b-ac32-e2a602042ae6")
+	)
+	(text "Normally, gate would be pulled to ground to prevent floating.\nIn this case, VBUS is not pulled to ground because there is internal 100k pulldown on XIAO BLE.\nhttps://files.seeedstudio.com/wiki/XIAO-BLE/Seeed-Studio-XIAO-nRF52840-Sense-v1.1.pdf"
+		(exclude_from_sim no)
+		(at 110.49 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64c1ff85-c8d2-4e52-b66e-1fa1b1b0d3a8")
 	)
 	(global_label "VBAT"
 		(shape input)
@@ -4181,7 +3954,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18071d91-b767-4ffe-ad0e-e61b32fb91a0")
 		(property "Reference" "J1"
 			(at 229.87 113.0299 0)
@@ -4228,6 +4000,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C2845379"
+			(at 227.33 109.982 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6f07dfe4-7551-4b4d-837a-b50375647494")
 		)
@@ -4261,7 +4042,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "NSR20F40NXT5G"
 			(at 105.156 135.128 0)
 			(effects
 				(font
@@ -4270,7 +4051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 110.49 139.7 0)
 			(effects
 				(font
@@ -4279,7 +4060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010330_onsemi-NSR20F40NXT5G_C153761.pdf"
 			(at 110.49 139.7 0)
 			(effects
 				(font
@@ -4288,13 +4069,23 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "40V 550mV@2A 2A 0603 Schottky Diodes ROHS"
 			(at 110.49 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C153761"
+			(at 105.156 132.588 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -4452,7 +4243,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6d149293-e045-4250-941d-f39d79a04032")
 		(property "Reference" "J3"
 			(at 189.23 123.19 0)
@@ -4508,13 +4298,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C160404"
-			(at 180.34 123.19 0)
+		(property "LCSC PN" "C160404"
+			(at 180.34 131.318 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "NC1"
@@ -4620,21 +4410,21 @@
 		(dnp no)
 		(uuid "7dd0c987-0bf9-43e7-ab65-eb24a09d4d86")
 		(property "Reference" "Q1"
-			(at 108.966 123.19 90)
+			(at 103.886 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Q_PMOS_GSD"
-			(at 108.966 120.65 90)
+		(property "Value" "FDN302P"
+			(at 103.886 120.142 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
@@ -4646,7 +4436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010102_onsemi-FDN302P_C3280162.pdf"
 			(at 104.14 129.54 0)
 			(effects
 				(font
@@ -4655,13 +4445,23 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
+		(property "Description" "20V 2.4A 55mΩ@2.4A,4.5V 500mW 1.5V@250uA 1 Piece P-Channel SOT-23-3 MOSFETs ROHS"
 			(at 104.14 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3280162"
+			(at 103.886 117.856 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -4690,7 +4490,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9229b3bd-5cb3-4d9b-8551-74a2089411dc")
 		(property "Reference" "J2"
 			(at 229.87 120.6499 0)
@@ -4735,6 +4534,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2845379"
+			(at 230.886 126.492 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4819,76 +4627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 104.14 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c044f78d-9197-4b05-9199-2b714027f611")
-		(property "Reference" "R1"
-			(at 106.68 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 106.68 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.362 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7ec6d55-bb08-4299-a94e-57251f381e16")
-		)
-		(pin "2"
-			(uuid "4aadcda7-222e-4907-adb2-949ff881c7b6")
-		)
-		(instances
-			(project ""
-				(path "/e83bb9a9-6169-4e6e-a646-f5672e545713"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "E22-900M30S:E22-900M30S")
 		(at 196.85 63.5 0)
 		(unit 1)
@@ -4896,7 +4634,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c2cf4b0d-6dd0-4582-8dd1-b1d57f9366b3")
 		(property "Reference" "U2"
 			(at 196.85 43.18 0)
@@ -4933,7 +4670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nSX1262 868/915 MHz 1w SPI LoRa Module\n"
+		(property "Description" "SX1262 868/915 MHz 1w SPI LoRa Module"
 			(at 196.85 63.5 0)
 			(effects
 				(font
@@ -5053,13 +4790,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C411294"
-			(at 196.85 63.5 0)
+		(property "LCSC PN" "C411294"
+			(at 196.85 40.64 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "8"
@@ -5132,73 +4869,6 @@
 			(project "ikoka-nano-meshtastic-device"
 				(path "/e83bb9a9-6169-4e6e-a646-f5672e545713"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 104.14 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c55bd6dd-7381-49be-be1b-4d7d9f544c62")
-		(property "Reference" "#PWR06"
-			(at 104.14 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6833582f-02dd-484d-954a-ec6e8de319a0")
-		)
-		(instances
-			(project ""
-				(path "/e83bb9a9-6169-4e6e-a646-f5672e545713"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5342,7 +5012,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C77085"
+		(property "LCSC PN" "C77085"
 			(at 223.52 43.18 0)
 			(effects
 				(font
@@ -5374,7 +5044,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea926af6-f53e-4dbb-8838-4d3ef787d470")
 		(property "Reference" "U1"
 			(at 89.8241 34.29 0)
@@ -5421,13 +5090,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17209540"
-			(at 81.28 59.69 0)
+		(property "LCSC PN" "C17209540"
+			(at 100.33 32.004 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "17"
