@@ -4949,7 +4949,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc0878bf-bda4-4450-aa25-f121a7b55c8b")
 		(property "Reference" "C1"
 			(at 223.52 36.83 0)
@@ -5013,12 +5012,12 @@
 			)
 		)
 		(property "LCSC Part #" "C77085"
-			(at 223.52 43.18 0)
+			(at 223.012 33.528 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"

@@ -520,7 +520,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ikoka-nano-meshtastic-device.step",
       "svg": "",
       "vrml": ""
     },
