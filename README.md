@@ -8,10 +8,8 @@ The focus is on small size without an onboard display or buttons, meaning it mus
 
 * USB-C for power and data
 * Qwiic connector for I²C sensors
-
-## Future Plans
-
-* Add a boost converter and restore battery-powered operation
+* Battery connectors (PicoBlade 1.25-2P)
+* Solar connector (PicoBlade 1.25-2P, 4.45 to 6.45 V - BQ25100 charge IC)
 
 ## Libraries Used
 
@@ -28,25 +26,35 @@ The focus is on small size without an onboard display or buttons, meaning it mus
 
 ### Ordering PCBs
 
-* Follow the instructions to generate Gerbers at your PCB house, e.g. [JLCPCB PCB Files Preparation](https://jlcpcb.com/help/catalog/180-PCB-Files-Preparation)
-* Default 1.6mm 2-layer PCB settings should work well, this PCB passes DRC based on JLCPCB specifications (other than the silkscreen of XIAO module being clipped by the PCB edge)
-  * PCBA: I used [[https://github.com/bennymeg/Fabrication-Toolkit|JLC PCB Plug-in for KiCad]] to generate a BOM and CPL file compatible with JLCPCB PCBA
+* Generate the production files
+  * Install [kicad-jlcpcb-tools](https://github.com/Bouni/kicad-jlcpcb-tools)
+  * Open the PCB file
+  * Tools -> External Plugins -> JLCPCB Tools
+  * Look over the Bill of Materials list and perform any substitutions required
+  * Click Generate
+* Order the PCBs
+  * Use the Gerbers, BOM and CPL files in `jlcpcb/production_files`
+  * Default 1.6mm 2-layer PCB settings should work well, this PCB passes DRC based on JLCPCB specifications (other than the silkscreen of XIAO module being clipped by the PCB edge)
 
 ### Ordering Components
 
-* LCSC
-  * 1* [EBYTE E22-900M30S](https://www.lcsc.com/product-detail/LoRa-Modules_Chengdu-Ebyte-Elec-Tech-E22-900M30S_C411294.html)
-  * 1* [JST SM04B-SRSS-TB(LF)(SN)](https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-SM04B-SRSS-TB-LF-SN_C160404.html)
-  * 1* [Murata GRM31CR60J107ME39L](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM31CR60J107ME39L_C77085.html)
-* Seeed Studio
-  * 1* [Seeed Studio XIAO nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
+* Check the exported BOM file in `jlcpcb/production_files`
 
 ### Assembling the PCB
 
-1. Solder U2 E22 module
-2. Solder C1
-3. Solder U1 XIAO nRF52840
-4. Solder Qwiic socket
+I suggest PCBA, but I used handsoldering pads and all SMDs are 0603 or larger so can be hand-soldered.
+
+1. Solder the SMD components
+  1. D1, C4, D2, R1
+  2. U3, Q1
+  3. R2, C3
+  4. C1, C2
+  5. L1
+2. Solder the connectors
+  1. Qwiic connector
+  2. Solar connector, battery connector x2
+3. Solder the XIAO BLE (solder 1-2 pins first then verify the rear VBAT hole is lined up well, before soldering the rest of the pads)
+4. Solder the E22-900M30S module
 
 ### Flashing
 
@@ -54,9 +62,7 @@ Follow the instructions at [meshtastic/firmware/variants/xiao_ble/](https://gith
 
 ### Enclosure
 
-A snap-fit 3D printable enclosure is available in the `enclosures` folder.
-
-![ikoka nano in enclosure](assets/ikoka-nano-meshtastic-device.png)
+A snap-fit 3D printable enclosure is available in the `enclosures` folder. **This has not been updated for the latest board design ([2b17a53](https://github.com/ndoo/ikoka-nano-meshtastic-device/commit/2b17a53b4cfc0f9a9a845ffaf8d8353723f1d552)).**
 
 ## PCB Images
 
