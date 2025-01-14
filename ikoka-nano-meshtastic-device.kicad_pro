@@ -59,10 +59,9 @@
         }
       ],
       "drc_exclusions": [
-        "annular_width|145500000|90200000|7f71664a-a92e-4234-9577-900d2e343694|00000000-0000-0000-0000-000000000000",
-        "courtyards_overlap|147975999|113681001|fc6320be-9bbb-4561-b2f0-b86f40a2bc73|6d0851a7-1c0a-42cf-af0e-814867778416",
-        "courtyards_overlap|151998001|113681001|fc6320be-9bbb-4561-b2f0-b86f40a2bc73|3aeaeebe-c206-4a21-beed-39db21bdeb24",
-        "padstack|145500000|90200000|7f71664a-a92e-4234-9577-900d2e343694|00000000-0000-0000-0000-000000000000"
+        "annular_width|145500000|90186500|d9d1d79b-08a1-4762-b598-a334e4d45ff4|00000000-0000-0000-0000-000000000000",
+        "clearance|135600000|101400000|28c4f8bd-8066-41bd-aeb6-42ffeb550d56|76005f44-dbc5-4401-ac16-7d7166e24395",
+        "clearance|138100000|94600000|4060a986-9d95-40a1-a3b7-8713c3d6a2c7|4a1f194a-a2ad-41ab-8880-f1af748868c7"
       ],
       "meta": {
         "version": 2
@@ -512,6 +511,10 @@
       {
         "netclass": "Power",
         "pattern": "VBAT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "SW"
       }
     ]
   },
@@ -581,11 +584,119 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part # ",
+          "name": "LCSC Part # ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SKU",
+          "name": "SKU",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
