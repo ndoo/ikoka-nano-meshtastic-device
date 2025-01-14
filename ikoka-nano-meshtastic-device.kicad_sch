@@ -4613,7 +4613,7 @@
 	)
 	(text "Normally, gate would be pulled to ground to prevent floating.\nIn this case, VBUS is not pulled to ground because there is internal 100k pulldown on XIAO BLE.\nhttps://files.seeedstudio.com/wiki/XIAO-BLE/Seeed-Studio-XIAO-nRF52840-Sense-v1.1.pdf"
 		(exclude_from_sim no)
-		(at 109.22 132.08 0)
+		(at 109.22 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5771,12 +5771,12 @@
 			)
 		)
 		(property "LCSC" "C191023"
-			(at 109.22 125.73 0)
+			(at 109.22 128.27 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6700,24 +6700,24 @@
 		(dnp no)
 		(uuid "7dd0c987-0bf9-43e7-ab65-eb24a09d4d86")
 		(property "Reference" "Q1"
-			(at 102.616 105.918 90)
+			(at 101.6 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "FDN302P"
-			(at 102.616 103.632 90)
+		(property "Value" "Q_PMOS_GSD"
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 100.33 107.95 0)
 			(effects
 				(font
@@ -6726,7 +6726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010102_onsemi-FDN302P_C3280162.pdf"
+		(property "Datasheet" "~"
 			(at 102.87 113.03 0)
 			(effects
 				(font
@@ -6735,7 +6735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 2.4A 55mΩ@2.4A,4.5V 500mW 1.5V@250uA 1 Piece P-Channel SOT-23-3 MOSFETs ROHS"
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 102.87 113.03 0)
 			(effects
 				(font
@@ -6744,8 +6744,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3280162"
-			(at 102.87 100.33 90)
+		(property "LCSC" "C15127"
+			(at 92.71 115.57 90)
 			(show_name yes)
 			(effects
 				(font
