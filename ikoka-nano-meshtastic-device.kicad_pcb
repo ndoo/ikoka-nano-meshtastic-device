@@ -478,7 +478,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -517,7 +517,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "*C1206*")
+		(property ki_fp_filters "C_*")
 		(path "/dc0878bf-bda4-4450-aa25-f121a7b55c8b")
 		(sheetname "Root")
 		(sheetfile "ikoka-nano-meshtastic-device.kicad_sch")
@@ -639,7 +639,6 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.188679)
 			(net 4 "GND")
-			(pinfunction "1")
 			(pintype "passive")
 			(uuid "df243eaf-a858-4d47-9a6f-451c782345bf")
 		)
@@ -649,7 +648,6 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.188679)
 			(net 24 "VCC_E22")
-			(pinfunction "2")
 			(pintype "passive")
 			(uuid "67017c72-b79c-434d-9f71-7b6aec48f3ee")
 		)
@@ -719,7 +717,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -758,7 +756,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "*C1206*")
+		(property ki_fp_filters "C_*")
 		(path "/7e507fda-c3ba-44ff-8512-37d91c7fdbcb")
 		(sheetname "Root")
 		(sheetfile "ikoka-nano-meshtastic-device.kicad_sch")
@@ -880,7 +878,6 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.188679)
 			(net 4 "GND")
-			(pinfunction "1")
 			(pintype "passive")
 			(uuid "414e200e-843e-415d-959b-42d44e09cf0e")
 		)
@@ -890,7 +887,6 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.188679)
 			(net 24 "VCC_E22")
-			(pinfunction "2")
 			(pintype "passive")
 			(uuid "4046bddb-724c-455f-86b2-3663d03a7b12")
 		)
@@ -5817,15 +5813,15 @@
 			)
 		)
 	)
-	(footprint "SparkFun-Connector:JST_SMD_1.0mm-4_RA"
+	(footprint "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
 		(layer "F.Cu")
 		(uuid "fc6320be-9bbb-4561-b2f0-b86f40a2bc73")
 		(at 150 114.5)
-		(tags "SparkFun")
+		(tags "SparkFun Qwiic Connector")
 		(property "Reference" "J1"
 			(at 0 1.8 0)
 			(layer "F.Fab")
-			(uuid "11190aaa-c6ce-46a6-8f55-4a4bbc2a3140")
+			(uuid "c3220d97-34fe-4929-bcd2-14e5ea27eed1")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5837,7 +5833,7 @@
 		(property "Value" "Qwiic_RA"
 			(at 0 2.6 0)
 			(layer "F.Fab")
-			(uuid "9ef50b43-80a3-45df-bbe0-d16ca1a9b907")
+			(uuid "a1a9cf77-1353-4522-9cef-245d45eee80d")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5846,12 +5842,12 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_RA"
+		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "89c63a4b-37cc-4ee6-a86f-242f82f59244")
+			(uuid "10c9239f-2612-4dcb-aa3e-0e6466dfc6c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +5860,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad4e87c8-ebc4-4dad-a228-9fb38b8441e6")
+			(uuid "6e5a4e5a-6b4d-4c1c-8764-76a07f7d8c69")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -5877,7 +5873,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "655f8873-2d17-4e6d-9280-fb82502363ec")
+			(uuid "22d3ae70-7e4e-499d-9818-20bd22aaa78a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +5886,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f313103-be5d-48f3-b5c2-8edd784cf44b")
+			(uuid "91afdd79-798a-48ca-981a-78b0082bdc35")
 			(effects
 				(font
 					(size 1 1)
@@ -5903,7 +5899,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72524478-5373-4445-b240-17c3fd9f9b9c")
+			(uuid "9d97ae4e-eb8f-4067-b99d-e0ebecb8f9bc")
 			(effects
 				(font
 					(size 1 1)
@@ -5924,7 +5920,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6a75d29b-2b54-468f-8c51-563b5c09f79d")
+			(uuid "66617dbc-93b6-4dde-9dd4-85771a006f2a")
 		)
 		(fp_line
 			(start -3 2)
@@ -5934,7 +5930,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "69dabb2f-b51c-42f9-96d0-a9ac125f9290")
+			(uuid "0260a272-2987-4d21-8efa-968db787c28c")
 		)
 		(fp_line
 			(start -1.5 4.6)
@@ -5944,7 +5940,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d7411648-24e8-41b6-aa53-2f6227c1dfc8")
+			(uuid "ebbcf080-009d-4e2b-a07d-ac688a2e98c3")
 		)
 		(fp_line
 			(start 2.25 0.35)
@@ -5954,7 +5950,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b1028399-b806-4045-8f4b-fc57220dc0d2")
+			(uuid "7f5e348b-aba3-4fad-a2ee-e7a2df5710f5")
 		)
 		(fp_line
 			(start 3 0.35)
@@ -5964,7 +5960,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0b7133ca-6144-435b-b3f1-f27af0130894")
+			(uuid "2399666f-b5bc-4483-a29d-ec1a66cbec8e")
 		)
 		(fp_rect
 			(start 3.51 4.797)
@@ -5975,7 +5971,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "440d9fb8-b5bb-4ae0-81d4-a752ab9a836c")
+			(uuid "4cf26c10-ff1c-46e8-8c24-f1cb004252ff")
 		)
 		(pad "1" smd rect
 			(at -1.5 0)
@@ -5985,7 +5981,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "5cbe657d-f19d-46d6-90c5-d83cd0195139")
+			(uuid "7e062408-1b94-426e-acdf-52b1163ce0af")
 		)
 		(pad "2" smd rect
 			(at -0.5 0)
@@ -5995,7 +5991,7 @@
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "204ce6d8-be80-4d28-b566-04f64841708d")
+			(uuid "209d5335-29db-46eb-9235-75cbcdeb9b6b")
 		)
 		(pad "3" smd rect
 			(at 0.5 0)
@@ -6005,7 +6001,7 @@
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "853c3729-d40d-4af4-8917-587a62c63891")
+			(uuid "1f84f329-c049-45ee-9bf4-d4e39cc92643")
 		)
 		(pad "4" smd rect
 			(at 1.5 0)
@@ -6015,7 +6011,7 @@
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "57b5bb0c-6232-4f65-a16c-b5b02e0854c8")
+			(uuid "c7132631-9159-4c20-a8cf-232c093b37de")
 		)
 		(pad "NC1" smd rect
 			(at 2.8 3.675)
@@ -6025,7 +6021,7 @@
 			(pinfunction "NC")
 			(pintype "no_connect")
 			(thermal_bridge_angle 0)
-			(uuid "c61eadc5-6943-426a-850c-19c79f885da3")
+			(uuid "cdcc6282-893a-4ec7-b424-8d332e1d2415")
 		)
 		(pad "NC2" smd rect
 			(at -2.8 3.675)
@@ -6035,9 +6031,33 @@
 			(pinfunction "NC")
 			(pintype "no_connect")
 			(thermal_bridge_angle 0)
-			(uuid "0910cbd6-0fa8-41f8-be06-4114a38191f3")
+			(uuid "fd586959-c085-4b70-9383-fdbc9c43912a")
+		)
+		(model "${KIPRJMOD}/symbols/SparkFun-KiCad-Libraries/Footprints/SparkFun-3D-models/Connector/Qwiic-Horizontal.STEP"
+			(hide yes)
+			(offset
+				(xyz 0 -0.7 -0.3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/symbols/SparkFun-KiCad-Libraries/Footprints/SparkFun-3D-models/Connector/JST_SMD_1.0mm-4.STEP"
+			(offset
+				(xyz 0 -0.7 -0.25)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 		(model "${KIPRJMOD}/symbols/SparkFun-KiCad-Libraries/Footprints/SparkFun-3D-models/Connector/Qwiic-Horizontal-White.STEP"
+			(hide yes)
 			(offset
 				(xyz 0 -0.7 -0.3)
 			)
@@ -6264,6 +6284,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "06004cb3-7a8d-4c55-aed6-866a843d2bcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description_1" "\nSX1262 868/915 MHz 1w SPI LoRa Module\n"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6fba16ce-93c4-4f35-9a05-4372a58c1e53")
 			(effects
 				(font
 					(size 1 1)
