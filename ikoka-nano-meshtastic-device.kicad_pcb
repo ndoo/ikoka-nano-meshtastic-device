@@ -5291,6 +5291,7 @@
 		(path "/ea926af6-f53e-4dbb-8838-4d3ef787d470")
 		(sheetname "/")
 		(sheetfile "ikoka-nano-meshtastic-device.kicad_sch")
+		(attr smd)
 		(fp_line
 			(start -8.945 8.513)
 			(end -8.945 -8.632)
