@@ -5228,7 +5228,7 @@
 			(at -9.445 -11.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2770dc17-7214-47da-9638-f514a0986ee7")
+			(uuid "2c701fd3-5fa3-4aa9-ae6c-16108c89daf5")
 			(effects
 				(font
 					(size 0.78232 0.78232)
@@ -5240,7 +5240,7 @@
 		(property "Value" "Seeed Studio XIAO nRF52840"
 			(at 0.055 6.5 0)
 			(layer "F.Fab")
-			(uuid "4d32746e-17ee-4886-9a62-3e82eaeee2c4")
+			(uuid "63dbbc71-7bc2-4e37-ba5f-870435470150")
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -5254,7 +5254,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef85e9d0-de21-4ce4-a434-3fa82a942dc1")
+			(uuid "9a271364-08b1-41b4-89f2-a38d35735176")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5267,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5bbd83ed-3769-4364-8350-061701328eed")
+			(uuid "be597c97-d0a5-46bc-b29b-15de8d445cea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +5291,6 @@
 		(path "/ea926af6-f53e-4dbb-8838-4d3ef787d470")
 		(sheetname "/")
 		(sheetfile "ikoka-nano-meshtastic-device.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -8.945 8.513)
 			(end -8.945 -8.632)
@@ -5660,7 +5659,7 @@
 			(layers "*.Cu" "F.Mask" "F.Paste")
 			(remove_unused_layers yes)
 			(keep_end_layers no)
-			(zone_layer_connections "F.Cu")
+			(zone_layer_connections)
 			(roundrect_rratio 0.25)
 			(net 22 "VBAT")
 			(pinfunction "BAT")
@@ -5744,7 +5743,7 @@
 			(uuid "c6febfc2-dea8-49b8-9445-a55c33c30313")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Andrew/Documents/Development/ikoka-handheld-meshtastic-device/3dmodels/XIAO-nRF52840 v15.step"
+		(model "${KIPRJMOD}/3dmodels/XIAO-nRF52840 v15.step"
 			(offset
 				(xyz 6.055 -1.75 0)
 			)
