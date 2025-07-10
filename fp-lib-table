@@ -1,9 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "SparkFun-Connector")(type "KiCad")(uri "${KIPRJMOD}/symbols/SparkFun-KiCad-Libraries/Footprints/SparkFun-Connector.pretty")(options "")(descr ""))
-  (lib (name "OPL_Capacitor")(type "KiCad")(uri "${KIPRJMOD}/symbols/OPL_Kicad_Library/Seeed Fusion Component Libraries for KiCad/OPL_Capacitor.pretty")(options "")(descr ""))
   (lib (name "E22-900M30S")(type "KiCad")(uri "${KIPRJMOD}/symbols/E22-900M30S")(options "")(descr ""))
   (lib (name "Seeed Studio XIAO Series Library")(type "KiCad")(uri "${KIPRJMOD}/symbols/OPL_Kicad_Library/Seeed Studio XIAO Series Library")(options "")(descr ""))
-  (lib (name "Onsemi DSN2")(type "KiCad")(uri "${KIPRJMOD}/symbols/Onsemi DSN2/Onsemi DSN2.pretty")(options "")(descr ""))
-  (lib (name "Onsemi DSN")(type "KiCad")(uri "${KIPRJMOD}/symbols/Onsemi DSN/Onsemi DSN.pretty")(options "")(descr ""))
 )
