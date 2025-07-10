@@ -16,6 +16,8 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+~*.lck
+\#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -28,5 +30,8 @@ fp-info-cache
 *.xml
 *.csv
 
-# KiCad 8
-*.lck
+# Other files not covered by GitHub's standard KiCad .gitignore
+*.kicad_sch_old
+
+jlcpcb/gerber
+jlcpcb/production_files
