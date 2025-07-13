@@ -45,20 +45,32 @@ The focus is on small size without an onboard display or buttons, meaning it mus
 I suggest PCBA, but I used handsoldering pads and all SMDs are 0603 or larger so can be hand-soldered.
 
 1. Solder the SMD components
-  1. D1, C4, D2, R1
-  2. U3, Q1
-  3. R2, C3
-  4. C1, C2
-  5. L1
+   * The larger (0805) capacitors go closer to the USB-C connector end of the PCB
 2. Solder the connectors
-  1. Qwiic connector
-  2. Solar connector, battery connector x2
-3. Solder the XIAO BLE (solder 1-2 pins first then verify the rear VBAT hole is lined up well, before soldering the rest of the pads)
+3. Solder the XIAO BLE
+   1. It helps to tin the BAT+ pad first, it will help ensure successful soldering through the back. Remove excess solder so that the pad is flat, otherwise the XIAO will not sit flush
+   2. Solder one pad first then verify all pads and the battery hole are lined up well, adjust the alignment if necessary
+   3. Solder one more pad diagonally opposite, double check the alignment of the pads
+   4. Solder the rear hole that goes to the BAT+ pad
+   5. Solder the rest of the pads
+   6. Test that the XIAO is able to power up from the battery and that charging works (a yellow LED will light up if the battery is charging), you won't be able to access the BAT+ pad once the E22 module is soldered
 4. Solder the E22-900M30S module
 
-### Flashing
+### Flashing Meshtastic Firmware
 
-Follow the instructions at [meshtastic/firmware/variants/xiao_ble/](https://github.com/meshtastic/firmware/tree/master/variants/xiao_ble).
+#### Pre-built Binaries (Unofficial)
+
+1. [Custom Meshtastic builds web installer](https://mrekin.duckdns.org/flasher/)
+2. Select your device -> Xiao BLE
+3. Select firmware version -> Pick the latest release
+4. Select update or reinstall -> Update device (usually works fine, but if Meshtastic does not start after a few seconds, wipe and reinstall)
+5. Download UF2
+6. Connect USB-C to PC, double-tap the reset button
+7. Drop UF2 file into XIAO-SENSE USB volume
+
+#### Building from Source
+
+Follow the instructions at [meshtastic/firmware/variants/diy/xiao_ble/](https://github.com/meshtastic/firmware/tree/master/variants/diy/xiao_ble).
 
 ### Enclosure
 
