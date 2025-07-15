@@ -5071,7 +5071,7 @@
 				)
 			)
 		)
-		(property "Value" "FNR4026S220MT"
+		(property "Value" "FXL0420-2R2-M"
 			(at 194.31 104.14 90)
 			(effects
 				(font
@@ -5079,7 +5079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4026S"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FXL0420"
 			(at 194.31 106.68 0)
 			(effects
 				(font
@@ -6345,7 +6345,7 @@
 				)
 			)
 		)
-		(property "Value" "MT3608L"
+		(property "Value" "MT3608B"
 			(at 194.31 111.76 0)
 			(effects
 				(font
@@ -6869,6 +6869,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 217.17 114.3 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6876,7 +6877,7 @@
 		(dnp no)
 		(uuid "a19e69cb-8c19-43d8-aab6-30fd0194334d")
 		(property "Reference" "R1"
-			(at 219.71 113.0299 0)
+			(at 219.71 115.5701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,7 +6886,7 @@
 			)
 		)
 		(property "Value" "300k"
-			(at 219.71 115.5699 0)
+			(at 219.71 113.0301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
